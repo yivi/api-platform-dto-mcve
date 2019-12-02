@@ -1,0 +1,9 @@
+App\Entity\VeryRealEntity:
+  itemOperations:
+    get: ~
+  collectionOperations:
+    customOperation:
+      method: POST
+      input: App\Entity\FooDto
+      output: App\Entity\FooDto
+      controller: App\Controller\FooBar
